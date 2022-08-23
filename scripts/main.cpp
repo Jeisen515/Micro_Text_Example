@@ -11,6 +11,7 @@ int frequency = 0;
 unordered_set<int> set;
 
 for(unsigned int i = 0; i < 12; i++){
+    //Verified how may values are repeated in the array
     if(set.find(array[i]) != set.end()){
         frequency++;
     } 
